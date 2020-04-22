@@ -1,0 +1,8 @@
+#!/bin/bash
+alias userGenerate="bash /home/tharun/Desktop/sysad/1.usergenerate"
+alias permit="bash /home/tharun/Desktop/sysad/2.permit"
+alias autoSchedule="bash /home/tharun/Desktop/sysad/3.autoschedule"
+alias attendance="bash /home/tharun/Desktop/sysad/4.attendance"
+alias record="bash /home/tharun/Desktop/sysad/5.record"
+alias finalattendance="bash /home/tharun/Desktop/sysad/hackermode1.finalattendance"
+alias nearest="bash /home/tharun/Desktop/sysad/hackermode2.nearest10"
