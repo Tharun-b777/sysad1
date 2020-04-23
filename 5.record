@@ -10,75 +10,75 @@ case $USER in
   AirForceChief)
   if [ $1 -eq 1 ]
   then
-  grep $monday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $monday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 2 ]
   then
-  grep $tuesday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $tuesday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 3 ]
   then
-  grep $wednesday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $wednesday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 4 ]
   then
-  grep $thursday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $thursday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 5 ]
   then
-  grep $friday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $friday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 6 ]
   then
-  grep $saturday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $saturday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   elif [ $1 -eq 7 ]
   then 
-  grep $sunday /home/tharun/Desktop/sysad/attendance.log | grep "AirForce"
+  grep $sunday /home/tharun/Desktop/sysad1/attendance.log | grep "AirForce"
   else
   echo "INVALID ENTRY"
 fi ;;
   NavyMarshal)
   if [ $1 -eq 1 ]
   then
-  grep $monday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $monday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 2 ]
   then
-  grep $tuesday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $tuesday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 3 ]
   then
-  grep $wednesday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $wednesday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 4 ]
   then
-  grep $thursday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $thursday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 5 ]
   then
-  grep $friday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $friday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 6 ]
   then
-  grep $saturday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $saturday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   elif [ $1 -eq 7 ]
   then 
-  grep $sunday /home/tharun/Desktop/sysad/attendance.log | grep "Navy"
+  grep $sunday /home/tharun/Desktop/sysad1/attendance.log | grep "Navy"
   else
   echo "INVALID ENTRY"
 fi;;
   ArmyGeneral)
   if [ $1 -eq 1 ]
   then
-  grep $monday /home/thrun/Desktop/sysad/attendance.log | grep "Army"
+  grep $monday /home/thrun/Desktop/sysad1/attendance.log | grep "Army"
   elif [ $1 -eq 2 ]
   then
-  grep $tuesday /home/tharun/Desktop/sysad/attendance.log | grep "Army"
+  grep $tuesday /home/tharun/Desktop/sysad1/attendance.log | grep "Army"
   elif [ $1 -eq 3 ]
   then
-  grep $wednesday /home/tharun/Desktop/sysad/attendance.log| grep "Army"
+  grep $wednesday /home/tharun/Desktop/sysad1/attendance.log| grep "Army"
   elif [ $1 -eq 4 ]
   then
-  grep $thursday /home/tharun/Desktop/sysad/attendance.log | grep "Army"
+  grep $thursday /home/tharun/Desktop/sysad1/attendance.log | grep "Army"
   elif [ $1 -eq 5 ]
   then
-  grep $friday /home/tharun/Desktop/sysad/attendance.log | grep 'Army'
+  grep $friday /home/tharun/Desktop/sysad1/attendance.log | grep 'Army'
   elif [ $1 -eq 6 ]
   then
-  grep $saturday /home/tharun/Desktop/sysad/attendance.log | grep "Army" 
+  grep $saturday /home/tharun/Desktop/sysad1/attendance.log | grep "Army" 
   elif [ $1 -eq 7 ]
   then
-  grep $sunday /home/tharun/Desktop/sysad/attendance.log | grep "Army"
+  grep $sunday /home/tharun/Desktop/sysad1/attendance.log | grep "Army"
   else
   echo "INVALID ENTRY"
 fi;;

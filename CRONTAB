@@ -1,2 +1,2 @@
-00 00 * * * bash /home/tharun/Desktop/sysad/3.autoschedule
-00 06 * * * bash /home/tharun/Desktop/sysad/4.attendance
+00 00 * * * bash /home/tharun/Desktop/sysad1/3.autoschedule
+00 06 * * * bash /home/tharun/Desktop/sysad1/4.attendance
