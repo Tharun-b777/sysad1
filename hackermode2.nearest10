@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d' ' /home/tharun/Desktop/sysad1/position.log <(cut -d' ' -f3- /home/tharun/Desktop/sysad1/attendance.log) | grep Army | grep Y | awk '/N°28.[1-8].*E°77.[0-9].*/{print}' | cut -f 1,2 -d' ' | awk '!seen[$2]++' > /home/ChiefCommander/nearest10
+paste -d' ' /home/tharun/Desktop/sysad1/position.log <(cut -d' ' -f3- /home/tharun/Desktop/sysad1/attendance.log) | grep Army | grep Y | awk '/N°28.[2-8].*E°77.[1-9].*/{print}' | cut -f 1,2 -d' ' | awk '!seen[$2]++' > /home/ChiefCommander/nearest10
